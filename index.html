@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HCCC BSBA-FM2A</title>
+    <title>Events | Holy Cross Calinan</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -11,6 +11,38 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+        }
+        /* Navigation bar */
+        nav {
+            background: royalblue;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 450;
+            font-size: 1em;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        /* White strip below navbar */
+        .white-strip {
+            background: #fff;
+            height: 2px;
+            width: 100%;
         }
         header {
             background: royalblue;
@@ -56,16 +88,29 @@
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
         }
         a {
-            text-decoration: none; /* Removes the underline */
-            color: inherit;       /* Inherits the color from the parent element */
+            text-decoration: none;
+            color: inherit;
         }
     </style>
 </head>
 <body>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="https://ace-1017.github.io/BSBAFM2A/">Home</a></li>
+            <li><a href="https://ace-1017.github.io/about-us/">About</a></li>
+            <li><a href="https://ace-1017.github.io/BSBAFM2A/#services">Programs</a></li>
+            <li><a href="#https://ace-1017.github.io/BSBAFM2A/#business-admin">Course</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </nav>
+
+    <!-- White Strip below Navbar -->
+    <div class="white-strip"></div>
+
     <header>
-        <h1>Holy Cross College of Calinan </h1>
-        <p class="subtitle">Latest Events</p>
+        <h1>Latest Events</h1>
     </header>
 
     <div class="container">
@@ -115,9 +160,11 @@
         <!-- Add more ad cards as needed -->
     </div>
 
-    <footer>
-        <p>&copy; 2024 Holy Cross College of Calinan</p>
-    </footer>
+    <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <p>&copy; 2024 Holy Cross College of Calinan. All rights reserved.</p>
+    <p>Email: <a href="mailto:holycrosscollegeofcalinan@yahoo.com">holycrosscollegeofcalinan@yahoo.com</a> | Mobile: <a href="tel:+639498469372">+639498469372</a> | Fax: 063 82 295-0145</p>
+</footer>
 
 </body>
 </html>
